@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+''' Write a script markdown2html.py that takes an argument 2 strings:
 
-"""
-Markdown script using python.
-"""
+    First argument is the name of the Markdown file
+    Second argument is the output file name
+'''
+
 import sys
 import os.path
 import re
